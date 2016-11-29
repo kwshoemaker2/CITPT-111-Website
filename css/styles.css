@@ -1,0 +1,25 @@
+header, nav, hgroup, article, section, footer {
+  border: 1px solid;
+}
+
+header, section, footer {
+  margin: 5px 10px;
+}
+
+
+hgroup {
+  margin: 10px 0px;
+}
+
+
+nav {
+  
+}
+
+nav li{
+  display: inline;
+}
+
+#about-me, #contact {
+  margin: 5px 0px;
+}
