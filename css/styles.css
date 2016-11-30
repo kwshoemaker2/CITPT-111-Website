@@ -2,6 +2,11 @@ header, nav, hgroup, article, section, footer {
   border: 1px solid;
 }
 
+.page {
+  margin: 0px auto;
+  width: 960px;
+}
+
 header, section, footer {
   margin: 5px 10px;
 }
@@ -22,4 +27,24 @@ nav li{
 
 #about-me, #contact {
   margin: 5px 0px;
+  overflow: auto;
+  width: 100%;
+}
+
+#bio {
+  width: 690px;
+  float: left;
+  margin: 0px 125px;
+}
+
+#skills-and-xp {
+  width: 330px;
+  float: left;
+  margin: 10px 15px 10px 125px;
+}
+
+#current-works {
+  width: 330px;
+  float: left;
+  margin: 10px 0px 10px 15px;
 }
