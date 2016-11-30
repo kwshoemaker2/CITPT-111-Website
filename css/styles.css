@@ -2,6 +2,10 @@ header, nav, hgroup, article, section, footer {
   border: 1px solid;
 }
 
+h1, h2, h3, #copyright {
+  text-align: center;
+}
+
 .page {
   margin: 0px auto;
   width: 960px;
@@ -18,11 +22,18 @@ hgroup {
 
 
 nav {
-  
 }
 
 nav li{
+  text-align: center;
   display: inline;
+  margin: 0px 45px;
+  border: 1px solid;
+}
+
+nav a{
+  width: 70px;
+  display: inline-block;
 }
 
 #about-me, #contact {
@@ -47,4 +58,16 @@ nav li{
   width: 330px;
   float: left;
   margin: 10px 0px 10px 15px;
+}
+
+.contact-links li{
+  text-align: center;
+  display: inline;
+  margin: 0px 25px;
+  border: 1px solid;
+}
+
+.contact-links a{
+  display: inline-block;
+  width: 120px;
 }
