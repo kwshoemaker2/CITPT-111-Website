@@ -7,11 +7,11 @@
 @import url('fonts.css');
 
 header, nav, hgroup, article, section, footer {
-  /*border: 1px solid;*/
+  border: 1px solid;
 }
 
 body {
-  background-color: #000000;
+  background-color: #14171A;
 }
 
 h1, h2, h3, #copyright {
@@ -95,6 +95,10 @@ nav a{
 .contact-links a{
   display: inline-block;
   width: 120px;
+}
+
+.contact-links img{
+  width: 60px;
 }
 
 footer {
