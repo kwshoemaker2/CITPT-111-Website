@@ -1,10 +1,38 @@
+/*
+ #000000 black
+ #787878 gray
+ #cf2228 red
+*/
+
+@import url('fonts.css');
+
+header, nav, hgroup, article, section, footer {
+  /*border: 1px solid;*/
+}
+
+body {
+  background-color: #000000;
+}
+
 h1, h2, h3, #copyright {
   text-align: center;
+  color: #787878;
+  font-family: 'Fauna One', serif;
+}
+
+p {
+  color: #707070;
+  font-family: 'Ubuntu', 'Rubik', sans-serif;
+}
+
+h4 {
+  color: #cf2228;
 }
 
 .page {
   margin: 0px auto;
   width: 960px;
+  background-color: #ffffff;
 }
 
 header, section, footer {
