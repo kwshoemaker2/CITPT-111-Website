@@ -7,7 +7,7 @@
 @import url('fonts.css');
 
 header, nav, hgroup, article, section, footer {
-  border: 1px solid;
+  /*border: 1px solid;*/
 }
 
 body {
