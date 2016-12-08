@@ -1,5 +1,5 @@
 /*
- #000000 black
+ #14171A charcoal
  #787878 gray
  #cf2228 red
 */
@@ -20,9 +20,14 @@ h1, h2, h3, #copyright {
   font-family: 'Fauna One', serif;
 }
 
+
+header hgroup {
+  height: 200px;
+}
+
 p {
   color: #707070;
-  font-family: 'Ubuntu', 'Rubik', sans-serif;
+  font-family: 'Rubik', 'Ubuntu', sans-serif;
 }
 
 h4 {
@@ -35,10 +40,6 @@ h4 {
   background-color: #ffffff;
 }
 
-header, section, footer {
-  margin: 5px 10px;
-}
-
 
 hgroup {
   margin: 10px 0px;
@@ -46,6 +47,7 @@ hgroup {
 
 
 nav {
+  background-color: #ffffff;
   border-top: 1px solid;
   border-bottom: 1px solid;
 }
