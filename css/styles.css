@@ -12,17 +12,58 @@ header, nav, hgroup, article, section, footer {
 
 body {
   background-color: #14171A;
+  margin: 0px;
 }
 
-h1, h2, h3, #copyright {
+.page {
+  margin: 0px auto;
+  width: 960px;
+  background-color: #ffffff;
+}
+
+h1 ,h2, h3, #copyright {
   text-align: center;
   color: #787878;
   font-family: 'Fauna One', serif;
 }
 
+header {
+  margin: 10px 0px 0px 0px;
+}
+
+header h1 {
+  color: #000000;
+  font-size: 250%;
+}
 
 header hgroup {
-  height: 200px;
+  margin: 0px;
+  padding: 100px 0px;
+  border-bottom: 2px solid;
+}
+
+nav {
+  border-bottom: 1px solid;
+}
+
+nav li{
+  text-align: center;
+  display: inline;
+  margin: 0px 55px;
+}
+
+nav a{
+  text-decoration: none;
+  font-size: 125%;
+  color: #000000;
+  display: inline-block;
+}
+
+
+.current, nav a:hover {
+  color: #cf2228;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
 }
 
 p {
@@ -34,35 +75,6 @@ h4 {
   color: #cf2228;
 }
 
-.page {
-  margin: 0px auto;
-  width: 960px;
-  background-color: #ffffff;
-}
-
-
-hgroup {
-  margin: 10px 0px;
-}
-
-
-nav {
-  background-color: #ffffff;
-  border-top: 1px solid;
-  border-bottom: 1px solid;
-}
-
-nav li{
-  text-align: center;
-  display: inline;
-  margin: 0px 45px;
-}
-
-nav a{
-  width: 70px;
-  display: inline-block;
-}
-
 #about-me, #contact {
   margin: 5px 0px;
   overflow: auto;
@@ -70,12 +82,13 @@ nav a{
   border-bottom: 1px solid;
 }
 
-#bio {
+#bio, #skills-and-xp, #current-works {
   width: 690px;
   float: left;
   margin: 0px 125px;
 }
 
+/*
 #skills-and-xp {
   width: 330px;
   float: left;
@@ -87,6 +100,7 @@ nav a{
   float: left;
   margin: 10px 0px 10px 15px;
 }
+*/
 
 .contact-links li{
   text-align: center;
