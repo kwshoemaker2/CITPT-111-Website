@@ -60,15 +60,15 @@ nav a{
 }
 
 
-nav a:hover {
+nav a:hover, .current {
   color: #cf2228;
-  border-top: 1px solid;
-  border-bottom: 1px solid;
 }
 
 p {
   color: #707070;
   font-family: 'Rubik', 'Ubuntu', sans-serif;
+  margin: 0px 30px;
+  text-align: justify;
 }
 
 h4 {
@@ -76,7 +76,7 @@ h4 {
 }
 
 #about-me, #skills-and-xp, #current-works, #contact {
-  margin: 5px 0px;
+  margin: 30px 0px;
   overflow: auto;
   width: 100%;
 }
@@ -103,6 +103,7 @@ h4 {
 .skill-entry p{
   font-size: 80%;
   text-align: justify;
+  margin: 15px 0px;
 }
 
 .skill-entry h4{
