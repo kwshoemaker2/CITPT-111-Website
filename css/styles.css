@@ -6,7 +6,7 @@
 
 @import url('fonts.css');
 
-header, nav, hgroup, article, section, footer {
+header, nav, hgroup, article, section, footer, div {
   /*border: 1px solid;*/
 }
 
@@ -60,7 +60,7 @@ nav a{
 }
 
 
-.current, nav a:hover {
+nav a:hover {
   color: #cf2228;
   border-top: 1px solid;
   border-bottom: 1px solid;
@@ -75,32 +75,42 @@ h4 {
   color: #cf2228;
 }
 
-#about-me, #contact {
+#about-me, #skills-and-xp, #current-works, #contact {
   margin: 5px 0px;
   overflow: auto;
   width: 100%;
-  border-bottom: 1px solid;
 }
 
-#bio, #skills-and-xp, #current-works {
-  width: 690px;
-  float: left;
-  margin: 0px 125px;
+#primary-skills {
+  width: 960px;
+  overflow: auto;
+  margin: 30px 0px;
 }
 
-/*
-#skills-and-xp {
-  width: 330px;
-  float: left;
-  margin: 10px 15px 10px 125px;
+#secondary-skills {
+  width: 720px;
+  overflow: auto;
+  margin: 30px 120px;
 }
 
-#current-works {
-  width: 330px;
+.skill-entry {
+  width: 180px;
+  margin: 20px 30px;
   float: left;
-  margin: 10px 0px 10px 15px;
+  font-family: "Inconsolata", monospace;
 }
-*/
+
+.skill-entry p{
+  font-size: 80%;
+  text-align: justify;
+}
+
+.skill-entry h4{
+  text-align: center;
+  margin: 0px auto;
+  width: 70%;
+  border-bottom: 4px solid;
+}
 
 .contact-links li{
   text-align: center;
