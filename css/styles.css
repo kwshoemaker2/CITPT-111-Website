@@ -1,17 +1,21 @@
 /*
- #14171A charcoal
+ #14171a charcoal
  #787878 gray
  #cf2228 red
 */
 
 @import url('fonts.css');
 
+/*****************************************************************************
+ * Global CSS
+ ****************************************************************************/
+
 header, nav, hgroup, article, section, footer, div {
   /*border: 1px solid;*/
 }
 
 body {
-  background-color: #14171A;
+  background-color: #14171a;
   margin: 0px;
 }
 
@@ -59,7 +63,6 @@ nav a{
   display: inline-block;
 }
 
-
 nav a:hover, .current {
   color: #cf2228;
 }
@@ -68,14 +71,20 @@ p {
   color: #707070;
   font-family: 'Rubik', 'Ubuntu', sans-serif;
   margin: 0px 30px;
-  text-align: justify;
 }
 
 h4 {
   color: #cf2228;
 }
 
-#about-me, #skills-and-xp, #current-works, #contact {
+footer p{
+  margin: 10px 0px;
+}
+
+/****************************************************************************
+ * index.html specific CSS
+ ***************************************************************************/
+#skills-and-xp, #current-project, #contact {
   margin: 30px 0px;
   overflow: auto;
   width: 100%;
@@ -84,13 +93,13 @@ h4 {
 #primary-skills {
   width: 960px;
   overflow: auto;
-  margin: 30px 0px;
+  margin: 30px auto;
 }
 
 #secondary-skills {
   width: 720px;
   overflow: auto;
-  margin: 30px 120px;
+  margin: 30px auto;
 }
 
 .skill-entry {
@@ -113,6 +122,56 @@ h4 {
   border-bottom: 4px solid;
 }
 
+
+/****************************************************************************
+ * about.html specific CSS
+ ***************************************************************************/
+#about-me {
+  overflow: auto;
+  width: 100%;
+  margin: 30px auto;
+}
+
+.image-container {
+  margin: 30px 30px;
+  width: 450px;
+  height: 450px;
+  float: left;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+}
+ 
+#bio, #work {
+  width: 430px;
+  border-left: 1px solid;
+  float: left;
+}
+
+.work-entry {
+  margin: 30px auto;
+  font-family: "Inconsolata", monospace;
+}
+
+.work-entry hgroup {
+  margin: 0px 30px;
+}
+
+.work-entry h4, .work-entry h5 {
+  text-align: left;
+  margin: 0px;
+}
+
+.work-entry p {
+  font-size: 80%;
+}
+
+
+/****************************************************************************
+ * contact.html specific CSS
+ ***************************************************************************/
 .contact-links li{
   text-align: center;
   display: inline;
@@ -126,8 +185,4 @@ h4 {
 
 .contact-links img{
   width: 60px;
-}
-
-footer p{
-  margin: 10px 0px;
 }
