@@ -57,7 +57,6 @@ nav li{
 }
 
 nav a{
-  text-decoration: none;
   font-size: 125%;
   color: #000000;
   display: inline-block;
@@ -65,6 +64,13 @@ nav a{
 
 nav a:hover, .current {
   color: #cf2228;
+}
+
+
+a {
+  text-decoration: none;
+  color: #cf2228;
+  font-family: 'Rubik', 'Ubuntu', sans-serif;
 }
 
 p {
@@ -158,7 +164,7 @@ footer {
 }
 
 #bio p{
-  margin: 30px 30px;
+  margin: 50px 30px;
 }
 
 
