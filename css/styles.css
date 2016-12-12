@@ -137,40 +137,28 @@ footer {
   margin: 30px auto;
 }
 
-.image-container {
-  margin: 30px 30px;
+#about-image-container {
+  margin: 30px 15px;
   width: 450px;
   height: 450px;
   float: left;
 }
 
-.image-container img {
+#about-image-container img {
   width: 100%;
   height: 100%;
 }
  
-#bio, #work {
+#bio {
   width: 430px;
-  border-left: 1px solid;
+  height: 450px;
   float: left;
+  margin: 30px 15px;
+  border-left: 1px solid;
 }
 
-.work-entry {
-  margin: 30px auto;
-  font-family: "Inconsolata", monospace;
-}
-
-.work-entry hgroup {
-  margin: 0px 30px;
-}
-
-.work-entry h4, .work-entry h5 {
-  text-align: left;
-  margin: 0px;
-}
-
-.work-entry p {
-  font-size: 80%;
+#bio p{
+  margin: 30px 30px;
 }
 
 
