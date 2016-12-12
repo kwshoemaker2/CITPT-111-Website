@@ -16,7 +16,7 @@ body {
 }
 
 .page {
-  margin: 0px auto;
+  margin: 20px auto;
   width: 960px;
   background-color: #ffffff;
 }
@@ -128,6 +128,6 @@ h4 {
   width: 60px;
 }
 
-footer {
-  margin-top: 10px;
+footer p{
+  margin: 10px 0px;
 }
