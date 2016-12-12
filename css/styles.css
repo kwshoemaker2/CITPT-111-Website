@@ -77,8 +77,13 @@ h4 {
   color: #cf2228;
 }
 
-footer p{
-  margin: 10px 0px;
+footer {
+  border-top: 1px solid #14171a;
+  margin: 30px 0px;
+}
+
+#copyright {
+  padding: 20px 0px;
 }
 
 /****************************************************************************
