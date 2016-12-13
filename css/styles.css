@@ -243,8 +243,7 @@ footer {
 
 .project-title {
   color: #cf2228;
-  margin-top: 7px;
-  line-height: 0.0em;
+  margin-top: 0px;
   text-align: left;
 }
 
@@ -253,3 +252,7 @@ footer {
   margin-top: 0px;
 }
 
+#lcsc-ios-app-img {
+  width: 205px;
+  height: 364px;
+}
