@@ -21,6 +21,9 @@ body {
   background-image: -webkit-linear-gradient(#14171a, #333333);
   /* Opera 11.10+ */
   background-image: -o-linear-gradient(#14171a, #333333);
+  height: 100%;
+  background-repeat: no-repeat;
+  margin: 0px;
   background-attachment: fixed;
 }
 
