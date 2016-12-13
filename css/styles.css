@@ -21,49 +21,53 @@ body {
   background-color: #ffffff;
 }
 
-h1 ,h2, h3, #copyright {
+h2, h3, #copyright {
   text-align: center;
   color: #787878;
   font-family: 'Fauna One', serif;
 }
 
 header {
-  margin: 10px 0px 0px 0px;
+  width: 100%;
+  overflow: auto;
+  margin-bottom: 60px;
 }
 
-header h1 {
-  color: #000000;
-  font-size: 250%;
+#logo-name {
+  color: #14171a;
+  font-size: 200%;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
-header hgroup {
-  margin: 0px;
-  padding: 100px 0px;
-  border-bottom: 2px solid;
+#logo-container {
+  float: left;
+  margin-left: 10px;
 }
 
 nav {
-  border-bottom: 1px solid;
+  float: right;
+  text-transform: uppercase;
+  margin-top: 9px
 }
 
 nav ul{
-  width: 700px;
-  margin: 10px auto;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  font-size: 120%;
 }
 
 nav li{
-  text-align: center;
+  margin: 0px 10px;
   display: inline;
-  margin: 0px 50px;
 }
 
 nav a{
-  font-size: 125%;
   color: #000000;
-  display: inline-block;
 }
 
-nav a:hover, .current {
+nav a:hover, #logo-name:hover, .current  {
   color: #cf2228;
 }
 
