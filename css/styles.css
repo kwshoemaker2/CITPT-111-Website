@@ -12,13 +12,23 @@
 
 body {
   background-color: #14171a;
-  margin: 0px;
+  /* Firefox 3.6+ */
+  background-image: -moz-linear-gradient(#14171a, #333333);
+  /* Safari 4+, Chrome 1+ */
+  background-image: -webkit-gradient(linear, 0% 0%,
+    0% 100%, from(#14171a), to(#333333));
+  /* Safari 5.1+, Chrome 10+ */
+  background-image: -webkit-linear-gradient(#14171a, #333333);
+  /* Opera 11.10+ */
+  background-image: -o-linear-gradient(#14171a, #333333);
+  background-attachment: fixed;
 }
 
 .page {
   margin: 20px auto;
   width: 960px;
   background-color: #ffffff;
+  background-image: url("../images/backgrounds/white-grunge-background.jpg");
 }
 
 h2, h3, #copyright {
@@ -31,6 +41,8 @@ header {
   width: 100%;
   overflow: auto;
   margin-bottom: 60px;
+  background-color: #ffffff;
+  background-image: url("../images/backgrounds/header-background.jpg");
 }
 
 #logo-name {
