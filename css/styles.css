@@ -232,7 +232,7 @@ footer {
 
 .project-image-container img {
   width: 250px;
-  height: 250px;
+  height: auto;
 }
 
 .project-description {
@@ -250,14 +250,4 @@ footer {
 .project-description p, .project-description a{
   font-size: 80%;
   margin-top: 0px;
-}
-
-#lcsc-ios-app-img {
-  width: 205px;
-  height: 364px;
-}
-
-#portfolio-site-image {
-  width: 250px;
-  height: 139px;
 }
