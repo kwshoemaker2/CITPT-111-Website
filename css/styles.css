@@ -209,3 +209,47 @@ footer {
 }
 
 
+/*****************************************************************************
+ * projects.html specific CSS
+ ****************************************************************************/
+
+#projects {
+  margin: 30px 0px;
+}
+
+.project-entry {
+  overflow: auto;
+  width: 720px;
+  margin: 30px auto;
+  border-bottom: 2px solid;
+}
+
+.project-image-container {
+  width: 250px;
+  float: left;
+  margin: 0px 10px;
+}
+
+.project-image-container img {
+  width: 250px;
+  height: 250px;
+}
+
+.project-description {
+  width: 400px;
+  float: left;
+  margin: 0px 10px;
+}
+
+.project-title {
+  color: #cf2228;
+  margin-top: 7px;
+  line-height: 0.0em;
+  text-align: left;
+}
+
+.project-description p, .project-description a{
+  font-size: 80%;
+  margin-top: 0px;
+}
+
