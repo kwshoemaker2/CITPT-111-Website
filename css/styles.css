@@ -251,3 +251,7 @@ footer {
   font-size: 80%;
   margin-top: 0px;
 }
+
+.last-project {
+  border-bottom: 0px;
+}
