@@ -10,10 +10,6 @@
  * Global CSS
  ****************************************************************************/
 
-header, nav, hgroup, article, section, footer, div {
-  /*border: 1px solid;*/
-}
-
 body {
   background-color: #14171a;
   margin: 0px;
@@ -71,7 +67,6 @@ nav a:hover, .current {
   color: #cf2228;
 }
 
-
 a {
   text-decoration: none;
   color: #cf2228;
@@ -81,7 +76,6 @@ a {
 p {
   color: #707070;
   font-family: 'Rubik', 'Ubuntu', sans-serif;
-  margin: 0px 30px;
 }
 
 h4 {
@@ -100,7 +94,7 @@ footer {
 /****************************************************************************
  * index.html specific CSS
  ***************************************************************************/
-#skills-and-xp, #current-project, #contact {
+#skills-and-xp {
   margin: 30px 0px;
   overflow: auto;
   width: 100%;
@@ -176,17 +170,42 @@ footer {
 /****************************************************************************
  * contact.html specific CSS
  ***************************************************************************/
-.contact-links li{
-  text-align: center;
-  display: inline;
-  margin: 0px 25px;
+#contact {
+  margin: 30px 0px;
+  overflow: auto;
+  width: 100%;
 }
 
-.contact-links a{
-  display: inline-block;
-  width: 120px;
+#contact-info{
+  width: 300px;
+  text-align: left;
+  float: left;
+  margin-left: 15px;
+  margin-right: 153px;
 }
 
-.contact-links img{
-  width: 60px;
+#contact-info p{
+  margin: 0px 0px 15px 0px;
 }
+
+#contact-links {
+  width: 300px;
+  float: left;
+  margin-left: 153px;
+  margin-right: 15px;
+}
+
+.contact-entry td {
+  padding: 0px 10px;
+  color: #cf2228;
+  font-family: "Rubik", "Ubuntu", sans-serif;
+}
+
+.contact-entry img {
+  width: 20px;
+  height: 20px;
+  margin: 0px auto;
+  padding-top: 4px;
+}
+
+
