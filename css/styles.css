@@ -4,7 +4,7 @@
  #cf2228 red
 */
 
-@import url('fonts.css');
+@import url('https://fonts.googleapis.com/css?family=Inconsolata|Roboto+Slab|Rubik');
 
 /*****************************************************************************
  * Global CSS
@@ -37,7 +37,7 @@ body {
 h2, h3, #copyright {
   text-align: center;
   color: #787878;
-  font-family: 'Fauna One', serif;
+  font-family: 'Roboto Slab', serif;
 }
 
 header {
@@ -89,12 +89,12 @@ nav a:hover, #logo-name:hover, .current  {
 a {
   text-decoration: none;
   color: #cf2228;
-  font-family: 'Rubik', 'Ubuntu', sans-serif;
+  font-family: 'Rubik', sans-serif;
 }
 
 p {
   color: #707070;
-  font-family: 'Rubik', 'Ubuntu', sans-serif;
+  font-family: 'Rubik', sans-serif;
 }
 
 h4 {
@@ -217,7 +217,7 @@ footer {
 .contact-entry td {
   padding: 0px 10px;
   color: #cf2228;
-  font-family: "Rubik", "Ubuntu", sans-serif;
+  font-family: "Rubik", sans-serif;
 }
 
 .contact-entry img {
