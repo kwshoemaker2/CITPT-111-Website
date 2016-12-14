@@ -31,7 +31,7 @@ body {
 
 h2, h3, #copyright {
   text-align: center;
-  color: #787878;
+  color: #14171a;
   font-family: 'Roboto Slab', serif;
 }
 
@@ -88,7 +88,7 @@ a {
 }
 
 p {
-  color: #707070;
+  color: #14171a;
   font-family: 'Rubik', sans-serif;
 }
 
@@ -192,7 +192,7 @@ footer {
 
 #contact-info{
   width: 300px;
-  text-align: left;
+  text-align: right;
   float: left;
   margin-left: 15px;
   margin-right: 153px;
